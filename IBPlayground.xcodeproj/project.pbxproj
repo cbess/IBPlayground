@@ -21,6 +21,7 @@
 		1EBDA440157E8D5400990782 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBDA41E157E8D5400990782 /* Foundation.framework */; };
 		1EBDA448157E8D5400990782 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1EBDA446157E8D5400990782 /* InfoPlist.strings */; };
 		1EBDA44B157E8D5400990782 /* IBPlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBDA44A157E8D5400990782 /* IBPlaygroundTests.m */; };
+		1EBDA457157E8E8A00990782 /* CBNib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBDA456157E8E8A00990782 /* CBNib.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +39,25 @@
 		1EBDA41C157E8D5400990782 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1EBDA41E157E8D5400990782 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1EBDA420157E8D5400990782 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1EBDA424157E8D5400990782 /* IBPlayground-Info.plist */ = {isa = PBXFileReference; path = "IBPlayground-Info.plist"; sourceTree = "<group>"; };
+		1EBDA424157E8D5400990782 /* IBPlayground-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IBPlayground-Info.plist"; sourceTree = "<group>"; };
 		1EBDA426157E8D5400990782 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1EBDA428157E8D5400990782 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1EBDA42A157E8D5400990782 /* IBPlayground-Prefix.pch */ = {isa = PBXFileReference; path = "IBPlayground-Prefix.pch"; sourceTree = "<group>"; };
-		1EBDA42B157E8D5400990782 /* CBAppDelegate.h */ = {isa = PBXFileReference; path = CBAppDelegate.h; sourceTree = "<group>"; };
+		1EBDA42A157E8D5400990782 /* IBPlayground-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IBPlayground-Prefix.pch"; sourceTree = "<group>"; };
+		1EBDA42B157E8D5400990782 /* CBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBAppDelegate.h; sourceTree = "<group>"; };
 		1EBDA42C157E8D5400990782 /* CBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBAppDelegate.m; sourceTree = "<group>"; };
-		1EBDA42E157E8D5400990782 /* CBViewController.h */ = {isa = PBXFileReference; path = CBViewController.h; sourceTree = "<group>"; };
+		1EBDA42E157E8D5400990782 /* CBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBViewController.h; sourceTree = "<group>"; };
 		1EBDA42F157E8D5400990782 /* CBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBViewController.m; sourceTree = "<group>"; };
 		1EBDA432157E8D5400990782 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CBViewController_iPhone.xib; sourceTree = "<group>"; };
 		1EBDA435157E8D5400990782 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CBViewController_iPad.xib; sourceTree = "<group>"; };
 		1EBDA43C157E8D5400990782 /* IBPlaygroundTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IBPlaygroundTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EBDA43D157E8D5400990782 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		1EBDA445157E8D5400990782 /* IBPlaygroundTests-Info.plist */ = {isa = PBXFileReference; path = "IBPlaygroundTests-Info.plist"; sourceTree = "<group>"; };
+		1EBDA445157E8D5400990782 /* IBPlaygroundTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IBPlaygroundTests-Info.plist"; sourceTree = "<group>"; };
 		1EBDA447157E8D5400990782 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1EBDA449157E8D5400990782 /* IBPlaygroundTests.h */ = {isa = PBXFileReference; path = IBPlaygroundTests.h; sourceTree = "<group>"; };
+		1EBDA449157E8D5400990782 /* IBPlaygroundTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBPlaygroundTests.h; sourceTree = "<group>"; };
 		1EBDA44A157E8D5400990782 /* IBPlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBPlaygroundTests.m; sourceTree = "<group>"; };
+		1EBDA455157E8E8A00990782 /* CBNib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBNib.h; path = Classes/CBNib.h; sourceTree = "<group>"; };
+		1EBDA456157E8E8A00990782 /* CBNib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CBNib.m; path = Classes/CBNib.m; sourceTree = "<group>"; };
+		1EBDA458157E8EDB00990782 /* CBNibHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBNibHelpers.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,8 +121,7 @@
 				1EBDA42C157E8D5400990782 /* CBAppDelegate.m */,
 				1EBDA42E157E8D5400990782 /* CBViewController.h */,
 				1EBDA42F157E8D5400990782 /* CBViewController.m */,
-				1EBDA431157E8D5400990782 /* CBViewController_iPhone.xib */,
-				1EBDA434157E8D5400990782 /* CBViewController_iPad.xib */,
+				1EBDA459157E8EE200990782 /* CBNib */,
 				1EBDA423157E8D5400990782 /* Supporting Files */,
 			);
 			path = IBPlayground;
@@ -127,6 +130,7 @@
 		1EBDA423157E8D5400990782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1EBDA454157E8E3400990782 /* xibs */,
 				1EBDA424157E8D5400990782 /* IBPlayground-Info.plist */,
 				1EBDA425157E8D5400990782 /* InfoPlist.strings */,
 				1EBDA428157E8D5400990782 /* main.m */,
@@ -152,6 +156,25 @@
 				1EBDA446157E8D5400990782 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1EBDA454157E8E3400990782 /* xibs */ = {
+			isa = PBXGroup;
+			children = (
+				1EBDA431157E8D5400990782 /* CBViewController_iPhone.xib */,
+				1EBDA434157E8D5400990782 /* CBViewController_iPad.xib */,
+			);
+			name = xibs;
+			sourceTree = "<group>";
+		};
+		1EBDA459157E8EE200990782 /* CBNib */ = {
+			isa = PBXGroup;
+			children = (
+				1EBDA458157E8EDB00990782 /* CBNibHelpers.h */,
+				1EBDA455157E8E8A00990782 /* CBNib.h */,
+				1EBDA456157E8E8A00990782 /* CBNib.m */,
+			);
+			name = CBNib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,7 +224,7 @@
 			attributes = {
 				CLASSPREFIX = CB;
 				LastUpgradeCheck = 0430;
-				ORGANIZATIONNAME = "Bottle Rocket Apps";
+				ORGANIZATIONNAME = "C. Bess";
 			};
 			buildConfigurationList = 1EBDA412157E8D5400990782 /* Build configuration list for PBXProject "IBPlayground" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -266,6 +289,7 @@
 				1EBDA429157E8D5400990782 /* main.m in Sources */,
 				1EBDA42D157E8D5400990782 /* CBAppDelegate.m in Sources */,
 				1EBDA430157E8D5400990782 /* CBViewController.m in Sources */,
+				1EBDA457157E8E8A00990782 /* CBNib.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
