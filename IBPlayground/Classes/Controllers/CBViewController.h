@@ -11,7 +11,7 @@
 @protocol CBViewControllerDelegate;
 
 @interface CBViewController : UIViewController
-@property (nonatomic, copy) NSString *messageText;
+@property (nonatomic, copy) NSString *messageText; // the label is hidden, but its text can still be set from IB
 @property (nonatomic, weak) IBOutlet id<CBViewControllerDelegate> delegate;
 - (id)initWithController:(UITabBarController *)controller;
 @end
