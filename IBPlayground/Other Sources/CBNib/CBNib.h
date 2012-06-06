@@ -22,11 +22,13 @@
  * Returns the instantiated object tree from the nib with the specified name.
  */
 + (NSArray *)instantiateNibNamed:(NSString *)nibName owner:(id<NSObject>)owner;
++ (NSArray *)instantiateNibNamed:(NSString *)nibName owner:(id<NSObject>)owner proxyObjects:(NSDictionary *)proxyObjects;
 
 /**
  * Loads the object tree for the current device's nib with the target name.
  */
 + (NSArray *)instantiateDeviceNibNamed:(NSString *)name owner:(id<NSObject>)owner;
++ (NSArray *)instantiateDeviceNibNamed:(NSString *)name owner:(id<NSObject>)owner proxyObjects:(NSDictionary *)proxyObjects;
 
 /**
  * Loads the instantiated object tree from a nib with the specified owner class name.
@@ -34,7 +36,9 @@
  * @discussion Uses the given owner for the class name and nib's owner.
  */
 + (NSArray *)loadSelfNibWithOwner:(id<NSObject>)owner;
++ (NSArray *)loadSelfNibWithOwner:(id<NSObject>)owner proxyObjects:(NSDictionary *)proxyObjects;
 + (NSArray *)loadSelfDeviceNibWithOwner:(id<NSObject>)owner;
++ (NSArray *)loadSelfDeviceNibWithOwner:(id<NSObject>)owner proxyObjects:(NSDictionary *)proxyObjects;
 
 #pragma mark - Type Specific
 

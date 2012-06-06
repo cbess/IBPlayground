@@ -13,6 +13,18 @@
 @end
 
 @implementation CBViewController
+@synthesize messageText;
+@synthesize delegate;
+
+- (id)initWithController:(UITabBarController *)controller
+{
+    self = [super init];
+    if (self) 
+    {
+        [CBNib loadSelfDeviceNibWithOwner:self proxyObjects:[NSDictionary dictionaryWithObject:controller forKey:@"tabbar"]];
+    }
+    return self;
+}
 
 - (void)viewDidLoad
 {
@@ -33,6 +45,13 @@
     } else {
         return YES;
     }
+}
+
+#pragma mark - Events
+
+- (IBAction)viewTapped:(id)sender 
+{
+    [self.delegate controllerViewTapped:self];
 }
 
 @end

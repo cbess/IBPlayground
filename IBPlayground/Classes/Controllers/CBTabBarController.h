@@ -1,5 +1,5 @@
 //
-//  CBViewController.h
+//  CBTabBarController.h
 //  IBPlayground
 //
 //  Created by Christopher Bess on 6/5/12.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CBViewController : UIViewController
+@interface CBTabBarController : UITabBarController
 
 @end

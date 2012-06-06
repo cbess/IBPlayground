@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E6E7A1C157EEAD90080EFE1 /* CBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E7A16157EEAD90080EFE1 /* CBAppDelegate.m */; };
+		1E6E7A1D157EEAD90080EFE1 /* CBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E7A19157EEAD90080EFE1 /* CBTabBarController.m */; };
+		1E6E7A1E157EEAD90080EFE1 /* CBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E7A1B157EEAD90080EFE1 /* CBViewController.m */; };
+		1E6E7A3F157F11AA0080EFE1 /* CBIntrospect.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E7A2A157F11AA0080EFE1 /* CBIntrospect.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1E6E7A40157F11AA0080EFE1 /* DCCrossHairView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E7A2F157F11AA0080EFE1 /* DCCrossHairView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1E6E7A41157F11AA0080EFE1 /* DCFrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E7A31157F11AA0080EFE1 /* DCFrameView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1E6E7A42157F11AA0080EFE1 /* DCIntrospect.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E7A33157F11AA0080EFE1 /* DCIntrospect.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1E6E7A43157F11AA0080EFE1 /* DCStatusBarOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E7A36157F11AA0080EFE1 /* DCStatusBarOverlay.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1E6E7A44157F11AA0080EFE1 /* DCUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E7A38157F11AA0080EFE1 /* DCUtility.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1E6E7A45157F11AA0080EFE1 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E7A3A157F11AA0080EFE1 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1E6E7A46157F11AA0080EFE1 /* UIView+Introspector.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E7A3C157F11AA0080EFE1 /* UIView+Introspector.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1E6E7A47157F11AA0080EFE1 /* UIWindow+Introspector.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E7A3E157F11AA0080EFE1 /* UIWindow+Introspector.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1E6E7A49157F125E0080EFE1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E6E7A48157F125E0080EFE1 /* QuartzCore.framework */; };
+		1E6E7A4C157F1C220080EFE1 /* CBTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E6E7A4A157F1C220080EFE1 /* CBTableViewCell.xib */; };
+		1E6E7A4F157F1C650080EFE1 /* CBTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E6E7A4E157F1C650080EFE1 /* CBTableViewCell.m */; };
+		1E6E7A52157F1DAB0080EFE1 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E6E7A51157F1DAB0080EFE1 /* image1.png */; };
 		1EBDA41D157E8D5400990782 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBDA41C157E8D5400990782 /* UIKit.framework */; };
 		1EBDA41F157E8D5400990782 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBDA41E157E8D5400990782 /* Foundation.framework */; };
 		1EBDA421157E8D5400990782 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBDA420157E8D5400990782 /* CoreGraphics.framework */; };
 		1EBDA427157E8D5400990782 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1EBDA425157E8D5400990782 /* InfoPlist.strings */; };
 		1EBDA429157E8D5400990782 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBDA428157E8D5400990782 /* main.m */; };
-		1EBDA42D157E8D5400990782 /* CBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBDA42C157E8D5400990782 /* CBAppDelegate.m */; };
-		1EBDA430157E8D5400990782 /* CBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBDA42F157E8D5400990782 /* CBViewController.m */; };
 		1EBDA433157E8D5400990782 /* CBViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EBDA431157E8D5400990782 /* CBViewController_iPhone.xib */; };
 		1EBDA436157E8D5400990782 /* CBViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EBDA434157E8D5400990782 /* CBViewController_iPad.xib */; };
 		1EBDA43E157E8D5400990782 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBDA43D157E8D5400990782 /* SenTestingKit.framework */; };
@@ -21,7 +35,8 @@
 		1EBDA440157E8D5400990782 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EBDA41E157E8D5400990782 /* Foundation.framework */; };
 		1EBDA448157E8D5400990782 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1EBDA446157E8D5400990782 /* InfoPlist.strings */; };
 		1EBDA44B157E8D5400990782 /* IBPlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBDA44A157E8D5400990782 /* IBPlaygroundTests.m */; };
-		1EBDA457157E8E8A00990782 /* CBNib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBDA456157E8E8A00990782 /* CBNib.m */; };
+		1EBDA4B8157EE7B100990782 /* CBTabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EBDA4B6157EE7B100990782 /* CBTabBarController.xib */; };
+		1EBDA4C0157EE9B900990782 /* CBNib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBDA4BE157EE9B900990782 /* CBNib.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +50,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E6E7A15157EEAD90080EFE1 /* CBAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBAppDelegate.h; sourceTree = "<group>"; };
+		1E6E7A16157EEAD90080EFE1 /* CBAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBAppDelegate.m; sourceTree = "<group>"; };
+		1E6E7A18157EEAD90080EFE1 /* CBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBTabBarController.h; sourceTree = "<group>"; };
+		1E6E7A19157EEAD90080EFE1 /* CBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBTabBarController.m; sourceTree = "<group>"; };
+		1E6E7A1A157EEAD90080EFE1 /* CBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBViewController.h; sourceTree = "<group>"; };
+		1E6E7A1B157EEAD90080EFE1 /* CBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBViewController.m; sourceTree = "<group>"; };
+		1E6E7A29157F11AA0080EFE1 /* CBIntrospect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBIntrospect.h; sourceTree = "<group>"; };
+		1E6E7A2A157F11AA0080EFE1 /* CBIntrospect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBIntrospect.m; sourceTree = "<group>"; };
+		1E6E7A2B157F11AA0080EFE1 /* CBIntrospectConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBIntrospectConstants.h; sourceTree = "<group>"; };
+		1E6E7A2C157F11AA0080EFE1 /* CBMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBMacros.h; sourceTree = "<group>"; };
+		1E6E7A2D157F11AA0080EFE1 /* CBSharedHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBSharedHeader.h; sourceTree = "<group>"; };
+		1E6E7A2E157F11AA0080EFE1 /* DCCrossHairView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCCrossHairView.h; sourceTree = "<group>"; };
+		1E6E7A2F157F11AA0080EFE1 /* DCCrossHairView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCCrossHairView.m; sourceTree = "<group>"; };
+		1E6E7A30157F11AA0080EFE1 /* DCFrameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCFrameView.h; sourceTree = "<group>"; };
+		1E6E7A31157F11AA0080EFE1 /* DCFrameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCFrameView.m; sourceTree = "<group>"; };
+		1E6E7A32157F11AA0080EFE1 /* DCIntrospect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCIntrospect.h; sourceTree = "<group>"; };
+		1E6E7A33157F11AA0080EFE1 /* DCIntrospect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCIntrospect.m; sourceTree = "<group>"; };
+		1E6E7A34157F11AA0080EFE1 /* DCIntrospectSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCIntrospectSettings.h; sourceTree = "<group>"; };
+		1E6E7A35157F11AA0080EFE1 /* DCStatusBarOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCStatusBarOverlay.h; sourceTree = "<group>"; };
+		1E6E7A36157F11AA0080EFE1 /* DCStatusBarOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCStatusBarOverlay.m; sourceTree = "<group>"; };
+		1E6E7A37157F11AA0080EFE1 /* DCUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCUtility.h; sourceTree = "<group>"; };
+		1E6E7A38157F11AA0080EFE1 /* DCUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCUtility.m; sourceTree = "<group>"; };
+		1E6E7A39157F11AA0080EFE1 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		1E6E7A3A157F11AA0080EFE1 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		1E6E7A3B157F11AA0080EFE1 /* UIView+Introspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Introspector.h"; sourceTree = "<group>"; };
+		1E6E7A3C157F11AA0080EFE1 /* UIView+Introspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Introspector.m"; sourceTree = "<group>"; };
+		1E6E7A3D157F11AA0080EFE1 /* UIWindow+Introspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Introspector.h"; sourceTree = "<group>"; };
+		1E6E7A3E157F11AA0080EFE1 /* UIWindow+Introspector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Introspector.m"; sourceTree = "<group>"; };
+		1E6E7A48157F125E0080EFE1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1E6E7A4B157F1C220080EFE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CBTableViewCell.xib; sourceTree = "<group>"; };
+		1E6E7A4D157F1C650080EFE1 /* CBTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBTableViewCell.h; path = Views/CBTableViewCell.h; sourceTree = "<group>"; };
+		1E6E7A4E157F1C650080EFE1 /* CBTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CBTableViewCell.m; path = Views/CBTableViewCell.m; sourceTree = "<group>"; };
+		1E6E7A51157F1DAB0080EFE1 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
 		1EBDA418157E8D5400990782 /* IBPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EBDA41C157E8D5400990782 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1EBDA41E157E8D5400990782 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -43,10 +91,6 @@
 		1EBDA426157E8D5400990782 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1EBDA428157E8D5400990782 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1EBDA42A157E8D5400990782 /* IBPlayground-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IBPlayground-Prefix.pch"; sourceTree = "<group>"; };
-		1EBDA42B157E8D5400990782 /* CBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBAppDelegate.h; sourceTree = "<group>"; };
-		1EBDA42C157E8D5400990782 /* CBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBAppDelegate.m; sourceTree = "<group>"; };
-		1EBDA42E157E8D5400990782 /* CBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBViewController.h; sourceTree = "<group>"; };
-		1EBDA42F157E8D5400990782 /* CBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBViewController.m; sourceTree = "<group>"; };
 		1EBDA432157E8D5400990782 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CBViewController_iPhone.xib; sourceTree = "<group>"; };
 		1EBDA435157E8D5400990782 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CBViewController_iPad.xib; sourceTree = "<group>"; };
 		1EBDA43C157E8D5400990782 /* IBPlaygroundTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IBPlaygroundTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,9 +99,10 @@
 		1EBDA447157E8D5400990782 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1EBDA449157E8D5400990782 /* IBPlaygroundTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBPlaygroundTests.h; sourceTree = "<group>"; };
 		1EBDA44A157E8D5400990782 /* IBPlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBPlaygroundTests.m; sourceTree = "<group>"; };
-		1EBDA455157E8E8A00990782 /* CBNib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CBNib.h; path = Classes/CBNib.h; sourceTree = "<group>"; };
-		1EBDA456157E8E8A00990782 /* CBNib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CBNib.m; path = Classes/CBNib.m; sourceTree = "<group>"; };
-		1EBDA458157E8EDB00990782 /* CBNibHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBNibHelpers.h; sourceTree = "<group>"; };
+		1EBDA4B7157EE7B100990782 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CBTabBarController.xib; sourceTree = "<group>"; };
+		1EBDA4BD157EE9B900990782 /* CBNib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBNib.h; sourceTree = "<group>"; };
+		1EBDA4BE157EE9B900990782 /* CBNib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBNib.m; sourceTree = "<group>"; };
+		1EBDA4BF157EE9B900990782 /* CBNibHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBNibHelpers.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E6E7A49157F125E0080EFE1 /* QuartzCore.framework in Frameworks */,
 				1EBDA41D157E8D5400990782 /* UIKit.framework in Frameworks */,
 				1EBDA41F157E8D5400990782 /* Foundation.framework in Frameworks */,
 				1EBDA421157E8D5400990782 /* CoreGraphics.framework in Frameworks */,
@@ -84,6 +130,85 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E6E7A14157EEAD90080EFE1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1E6E7A15157EEAD90080EFE1 /* CBAppDelegate.h */,
+				1E6E7A16157EEAD90080EFE1 /* CBAppDelegate.m */,
+				1E6E7A53157F23230080EFE1 /* Views */,
+				1E6E7A17157EEAD90080EFE1 /* Controllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1E6E7A17157EEAD90080EFE1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1E6E7A18157EEAD90080EFE1 /* CBTabBarController.h */,
+				1E6E7A19157EEAD90080EFE1 /* CBTabBarController.m */,
+				1E6E7A1A157EEAD90080EFE1 /* CBViewController.h */,
+				1E6E7A1B157EEAD90080EFE1 /* CBViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1E6E7A1F157EEADC0080EFE1 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1E6E7A28157F11AA0080EFE1 /* CBIntrospect */,
+				1EBDA4BC157EE9B900990782 /* CBNib */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		1E6E7A28157F11AA0080EFE1 /* CBIntrospect */ = {
+			isa = PBXGroup;
+			children = (
+				1E6E7A29157F11AA0080EFE1 /* CBIntrospect.h */,
+				1E6E7A2A157F11AA0080EFE1 /* CBIntrospect.m */,
+				1E6E7A2B157F11AA0080EFE1 /* CBIntrospectConstants.h */,
+				1E6E7A2C157F11AA0080EFE1 /* CBMacros.h */,
+				1E6E7A2D157F11AA0080EFE1 /* CBSharedHeader.h */,
+				1E6E7A2E157F11AA0080EFE1 /* DCCrossHairView.h */,
+				1E6E7A2F157F11AA0080EFE1 /* DCCrossHairView.m */,
+				1E6E7A30157F11AA0080EFE1 /* DCFrameView.h */,
+				1E6E7A31157F11AA0080EFE1 /* DCFrameView.m */,
+				1E6E7A32157F11AA0080EFE1 /* DCIntrospect.h */,
+				1E6E7A33157F11AA0080EFE1 /* DCIntrospect.m */,
+				1E6E7A34157F11AA0080EFE1 /* DCIntrospectSettings.h */,
+				1E6E7A35157F11AA0080EFE1 /* DCStatusBarOverlay.h */,
+				1E6E7A36157F11AA0080EFE1 /* DCStatusBarOverlay.m */,
+				1E6E7A37157F11AA0080EFE1 /* DCUtility.h */,
+				1E6E7A38157F11AA0080EFE1 /* DCUtility.m */,
+				1E6E7A39157F11AA0080EFE1 /* JSONKit.h */,
+				1E6E7A3A157F11AA0080EFE1 /* JSONKit.m */,
+				1E6E7A3B157F11AA0080EFE1 /* UIView+Introspector.h */,
+				1E6E7A3C157F11AA0080EFE1 /* UIView+Introspector.m */,
+				1E6E7A3D157F11AA0080EFE1 /* UIWindow+Introspector.h */,
+				1E6E7A3E157F11AA0080EFE1 /* UIWindow+Introspector.m */,
+			);
+			name = CBIntrospect;
+			path = "Other Sources/CBIntrospect";
+			sourceTree = "<group>";
+		};
+		1E6E7A50157F1DAB0080EFE1 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1E6E7A51157F1DAB0080EFE1 /* image1.png */,
+			);
+			name = images;
+			path = Resources/Images;
+			sourceTree = "<group>";
+		};
+		1E6E7A53157F23230080EFE1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1E6E7A4D157F1C650080EFE1 /* CBTableViewCell.h */,
+				1E6E7A4E157F1C650080EFE1 /* CBTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		1EBDA40D157E8D5400990782 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +231,7 @@
 		1EBDA41B157E8D5400990782 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1E6E7A48157F125E0080EFE1 /* QuartzCore.framework */,
 				1EBDA41C157E8D5400990782 /* UIKit.framework */,
 				1EBDA41E157E8D5400990782 /* Foundation.framework */,
 				1EBDA420157E8D5400990782 /* CoreGraphics.framework */,
@@ -117,11 +243,8 @@
 		1EBDA422157E8D5400990782 /* IBPlayground */ = {
 			isa = PBXGroup;
 			children = (
-				1EBDA42B157E8D5400990782 /* CBAppDelegate.h */,
-				1EBDA42C157E8D5400990782 /* CBAppDelegate.m */,
-				1EBDA42E157E8D5400990782 /* CBViewController.h */,
-				1EBDA42F157E8D5400990782 /* CBViewController.m */,
-				1EBDA459157E8EE200990782 /* CBNib */,
+				1E6E7A14157EEAD90080EFE1 /* Classes */,
+				1E6E7A1F157EEADC0080EFE1 /* Other Sources */,
 				1EBDA423157E8D5400990782 /* Supporting Files */,
 			);
 			path = IBPlayground;
@@ -130,6 +253,7 @@
 		1EBDA423157E8D5400990782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1E6E7A50157F1DAB0080EFE1 /* images */,
 				1EBDA454157E8E3400990782 /* xibs */,
 				1EBDA424157E8D5400990782 /* IBPlayground-Info.plist */,
 				1EBDA425157E8D5400990782 /* InfoPlist.strings */,
@@ -163,18 +287,21 @@
 			children = (
 				1EBDA431157E8D5400990782 /* CBViewController_iPhone.xib */,
 				1EBDA434157E8D5400990782 /* CBViewController_iPad.xib */,
+				1EBDA4B6157EE7B100990782 /* CBTabBarController.xib */,
+				1E6E7A4A157F1C220080EFE1 /* CBTableViewCell.xib */,
 			);
 			name = xibs;
 			sourceTree = "<group>";
 		};
-		1EBDA459157E8EE200990782 /* CBNib */ = {
+		1EBDA4BC157EE9B900990782 /* CBNib */ = {
 			isa = PBXGroup;
 			children = (
-				1EBDA458157E8EDB00990782 /* CBNibHelpers.h */,
-				1EBDA455157E8E8A00990782 /* CBNib.h */,
-				1EBDA456157E8E8A00990782 /* CBNib.m */,
+				1EBDA4BD157EE9B900990782 /* CBNib.h */,
+				1EBDA4BE157EE9B900990782 /* CBNib.m */,
+				1EBDA4BF157EE9B900990782 /* CBNibHelpers.h */,
 			);
 			name = CBNib;
+			path = "Other Sources/CBNib";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +379,9 @@
 				1EBDA427157E8D5400990782 /* InfoPlist.strings in Resources */,
 				1EBDA433157E8D5400990782 /* CBViewController_iPhone.xib in Resources */,
 				1EBDA436157E8D5400990782 /* CBViewController_iPad.xib in Resources */,
+				1EBDA4B8157EE7B100990782 /* CBTabBarController.xib in Resources */,
+				1E6E7A4C157F1C220080EFE1 /* CBTableViewCell.xib in Resources */,
+				1E6E7A52157F1DAB0080EFE1 /* image1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,9 +417,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EBDA429157E8D5400990782 /* main.m in Sources */,
-				1EBDA42D157E8D5400990782 /* CBAppDelegate.m in Sources */,
-				1EBDA430157E8D5400990782 /* CBViewController.m in Sources */,
-				1EBDA457157E8E8A00990782 /* CBNib.m in Sources */,
+				1EBDA4C0157EE9B900990782 /* CBNib.m in Sources */,
+				1E6E7A1C157EEAD90080EFE1 /* CBAppDelegate.m in Sources */,
+				1E6E7A1D157EEAD90080EFE1 /* CBTabBarController.m in Sources */,
+				1E6E7A1E157EEAD90080EFE1 /* CBViewController.m in Sources */,
+				1E6E7A3F157F11AA0080EFE1 /* CBIntrospect.m in Sources */,
+				1E6E7A40157F11AA0080EFE1 /* DCCrossHairView.m in Sources */,
+				1E6E7A41157F11AA0080EFE1 /* DCFrameView.m in Sources */,
+				1E6E7A42157F11AA0080EFE1 /* DCIntrospect.m in Sources */,
+				1E6E7A43157F11AA0080EFE1 /* DCStatusBarOverlay.m in Sources */,
+				1E6E7A44157F11AA0080EFE1 /* DCUtility.m in Sources */,
+				1E6E7A45157F11AA0080EFE1 /* JSONKit.m in Sources */,
+				1E6E7A46157F11AA0080EFE1 /* UIView+Introspector.m in Sources */,
+				1E6E7A47157F11AA0080EFE1 /* UIWindow+Introspector.m in Sources */,
+				1E6E7A4F157F1C650080EFE1 /* CBTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +453,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		1E6E7A4A157F1C220080EFE1 /* CBTableViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E6E7A4B157F1C220080EFE1 /* en */,
+			);
+			name = CBTableViewCell.xib;
+			sourceTree = "<group>";
+		};
 		1EBDA425157E8D5400990782 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -342,6 +491,14 @@
 				1EBDA447157E8D5400990782 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1EBDA4B6157EE7B100990782 /* CBTabBarController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EBDA4B7157EE7B100990782 /* en */,
+			);
+			name = CBTabBarController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -469,6 +626,7 @@
 				1EBDA450157E8D5400990782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1EBDA451157E8D5400990782 /* Build configuration list for PBXNativeTarget "IBPlaygroundTests" */ = {
 			isa = XCConfigurationList;
@@ -477,6 +635,7 @@
 				1EBDA453157E8D5400990782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

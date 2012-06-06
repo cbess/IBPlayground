@@ -7,25 +7,23 @@
 //
 
 #import "CBAppDelegate.h"
-
+#import "CBIntrospect.h"
 #import "CBViewController.h"
+#import "CBTabBarController.h"
 
 @implementation CBAppDelegate
 
 @synthesize window = _window;
-@synthesize viewController = _viewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        self.viewController = [[CBViewController alloc] initWithNibName:@"CBViewController_iPhone" bundle:nil];
-    } else {
-        self.viewController = [[CBViewController alloc] initWithNibName:@"CBViewController_iPad" bundle:nil];
-    }
-    self.window.rootViewController = self.viewController;
+    self.window.rootViewController = [[CBNib instantiateNibNamed:@"CBTabBarController" owner:nil] lastObject];
     [self.window makeKeyAndVisible];
+    
+    // must be started after window is visible
+    [[CBIntrospect sharedIntrospector] start];
+    
     return YES;
 }
 
